@@ -5,19 +5,19 @@
     "version": "0.0.5b",
     "category": "analytics",
     "account": {
-        "callback_url": "http://countersback.herokuapp.com/api",
+        "callback_url": "https://serverzero.net/connect/cloudflare",
         "user_fields": ["email"]
     },
     "billing": {
         "type": "zone",
         "plans":[
             {
-                "name" : "Chowder",
-                "price": "3.20"
+                "name" : "Beta",
+                "price": "0"
             },
             {
-                "name" : "Minestrone",
-                "price" : "6.55"
+                "name" : "Fix",
+                "price" : "5"
             }
         ]
     },
